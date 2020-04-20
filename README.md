@@ -5,7 +5,7 @@
 [![GoDoc](https://godoc.org/github.com/romnnn/flatbson?status.svg)](https://godoc.org/github.com/romnnn/flatbson)  [![Test Coverage](https://codecov.io/gh/romnnn/flatbson/branch/master/graph/badge.svg)](https://codecov.io/gh/romnnn/flatbson)
 [![Release](https://img.shields.io/github/release/romnnn/flatbson)](https://github.com/romnnn/flatbson/releases/latest)
 
-Your description goes here...
+Go package for flattening bson documents.
 
 
 
@@ -13,6 +13,28 @@ Your description goes here...
 
 ```golang
 import "github.com/romnnn/flatbson"
+```
+
+Example:
+```golang
+import (
+	"fmt"
+	"github.com/romnnn/flatbson"
+	"go.mongodb.org/mongo-driver/bson"
+)
+
+func main() {
+    input := bson.D{
+		{"user", bson.D{{"email", "test"}}},
+		{"metadata", bson.D{{"city", bson.D{{"name", "Berlin"}}}}},
+	}
+	// Flatten the document
+	flattened, err := flatbson.Flattened(input, ".")
+	if err != nil {
+		panic(err)
+	}
+    fmt.Println(flattened)
+}
 ```
 
 For more examples, see `examples/`.
