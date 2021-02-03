@@ -1,8 +1,9 @@
 ## flatbson
 
-[![Build Status](https://travis-ci.com/romnn/flatbson.svg?branch=master)](https://travis-ci.com/romnn/flatbson)
+[![Build Status](https://github.com/romnn/flatbson/workflows/test/badge.svg)](https://github.com/romnn/flatbson/actions)
 [![GitHub](https://img.shields.io/github/license/romnn/flatbson)](https://github.com/romnn/flatbson)
-[![GoDoc](https://godoc.org/github.com/romnn/flatbson?status.svg)](https://godoc.org/github.com/romnn/flatbson)  [![Test Coverage](https://codecov.io/gh/romnn/flatbson/branch/master/graph/badge.svg)](https://codecov.io/gh/romnn/flatbson)
+[![GoDoc](https://godoc.org/github.com/romnn/flatbson?status.svg)](https://godoc.org/github.com/romnn/flatbson)
+[![Test Coverage](https://codecov.io/gh/romnn/flatbson/branch/master/graph/badge.svg)](https://codecov.io/gh/romnn/flatbson)
 [![Release](https://img.shields.io/github/release/romnn/flatbson)](https://github.com/romnn/flatbson/releases/latest)
 
 Go package for flattening bson documents.
