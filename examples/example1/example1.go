@@ -4,7 +4,7 @@ import (
 	"log"
 	"sort"
 
-	"github.com/romnnn/flatbson"
+	"github.com/romnn/flatbson"
 	"go.mongodb.org/mongo-driver/bson"
 )
 

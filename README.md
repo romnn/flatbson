@@ -1,9 +1,9 @@
 ## flatbson
 
-[![Build Status](https://travis-ci.com/romnnn/flatbson.svg?branch=master)](https://travis-ci.com/romnnn/flatbson)
-[![GitHub](https://img.shields.io/github/license/romnnn/flatbson)](https://github.com/romnnn/flatbson)
-[![GoDoc](https://godoc.org/github.com/romnnn/flatbson?status.svg)](https://godoc.org/github.com/romnnn/flatbson)  [![Test Coverage](https://codecov.io/gh/romnnn/flatbson/branch/master/graph/badge.svg)](https://codecov.io/gh/romnnn/flatbson)
-[![Release](https://img.shields.io/github/release/romnnn/flatbson)](https://github.com/romnnn/flatbson/releases/latest)
+[![Build Status](https://travis-ci.com/romnn/flatbson.svg?branch=master)](https://travis-ci.com/romnn/flatbson)
+[![GitHub](https://img.shields.io/github/license/romnn/flatbson)](https://github.com/romnn/flatbson)
+[![GoDoc](https://godoc.org/github.com/romnn/flatbson?status.svg)](https://godoc.org/github.com/romnn/flatbson)  [![Test Coverage](https://codecov.io/gh/romnn/flatbson/branch/master/graph/badge.svg)](https://codecov.io/gh/romnn/flatbson)
+[![Release](https://img.shields.io/github/release/romnn/flatbson)](https://github.com/romnn/flatbson/releases/latest)
 
 Go package for flattening bson documents.
 
@@ -12,14 +12,14 @@ Go package for flattening bson documents.
 #### Usage as a library
 
 ```golang
-import "github.com/romnnn/flatbson"
+import "github.com/romnn/flatbson"
 ```
 
 Example:
 ```golang
 import (
 	"fmt"
-	"github.com/romnnn/flatbson"
+	"github.com/romnn/flatbson"
 	"go.mongodb.org/mongo-driver/bson"
 )
 

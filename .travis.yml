@@ -7,7 +7,7 @@ go:
 os:
   - linux
   - osx
-env: MOD=github.com/romnnn/flatbson BINARY=flatbson
+env: MOD=github.com/romnn/flatbson BINARY=flatbson
 
 jobs:
   allow_failures:

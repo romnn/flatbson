@@ -3,7 +3,7 @@ package flatbson
 import (
 	"testing"
 
-	"github.com/romnnn/deepequal"
+	"github.com/romnn/deepequal"
 	"go.mongodb.org/mongo-driver/bson"
 )
 
